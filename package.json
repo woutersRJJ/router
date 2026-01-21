@@ -1,6 +1,6 @@
 {
-  "_comment": "Opgelet homepage bij Router vermelden!",
-  "homepage": "https://woutersrjj.github.io/router",
+  "_comment": "Probeer toch eens met gewoon dot",
+  "homepage": ".",
   "name": "router",
   "version": "0.1.0",
   "private": true,
