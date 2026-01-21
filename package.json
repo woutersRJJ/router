@@ -1,5 +1,5 @@
 {
-  "_comment": "Probeer toch eens met gewoon dot",
+  "_comment": "Probeer toch eens met gewoon dot. Zowel serve build als Deploy OK!",
   "homepage": ".",
   "name": "router",
   "version": "0.1.0",
