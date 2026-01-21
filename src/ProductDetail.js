@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import {Link, Outlet, useParams} from "react-router-dom";
 
 export default function ProductDetail() {
     const { id } = useParams();
@@ -7,6 +7,10 @@ export default function ProductDetail() {
         <div style={{ marginTop: "1rem" }}>
             <h2>Product Detail</h2>
             <p>You are viewing product ID: {id}</p>
+
+            <Link to="reviews">See reviews</Link>
+
+            <Outlet/>
         </div>
     );
 }
