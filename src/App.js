@@ -5,7 +5,8 @@ import {HashRouter, Link, Route, Routes} from "react-router-dom";
 
 function App() {
         return (
-            <HashRouter>
+            // <HashRouter> goes into index.js
+            <div>
                 <nav style={{ display: "flex", gap: "1rem", padding: "1rem" }}>
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
@@ -15,7 +16,8 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                 </Routes>
-            </HashRouter>
+            </div>
+            // </HashRouter>
         );
 }
 
