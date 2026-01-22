@@ -1,10 +1,10 @@
 import './App.css';
-import Home from "./Home";
-import About from "./About";
+import Home from "./components/Home";
+import About from "./components/About";
 import {Link, Route, Routes} from "react-router-dom";
-import Products from "./Products";
-import ProductDetail from "./ProductDetail";
-import ProductReviews from "./ProductReviews";
+import Products from "./components/Products";
+import ProductDetail from "./components/ProductDetail";
+import ProductReviews from "./components/ProductReviews";
 import {PRODUCT_DATA} from "./data/data";
 
 function App() {
