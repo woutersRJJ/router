@@ -1,17 +1,12 @@
 import {Link, Outlet} from "react-router-dom";
 
-export default function Products() {
-    const items = [
-        { id: 1, name: "Laptop" },
-        { id: 2, name: "Headphones" },
-        { id: 3, name: "Keyboard" }
-    ];
+export default function Products({products}) {
 
     return (
         <div>
             <h1>Producten</h1>
             <ul>
-                {items.map(p => (
+                {products.map(p => (
                     <li key={p.id}>
                         <Link to={`${p.id}`}>{p.name}</Link>
                     </li>

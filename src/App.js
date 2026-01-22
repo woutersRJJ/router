@@ -5,6 +5,7 @@ import {Link, Route, Routes} from "react-router-dom";
 import Products from "./Products";
 import ProductDetail from "./ProductDetail";
 import ProductReviews from "./ProductReviews";
+import {PRODUCT_DATA} from "./data/data";
 
 function App() {
         return (
@@ -21,13 +22,13 @@ function App() {
                     <Route path="/about" element={<About />} />
 
                     {/* Parent route */}
-                    <Route path="/products" element={<Products />}>
+                    <Route path="/products" element={<Products products={PRODUCT_DATA} />}>
                         {/* Geneste Child route level 1
                         bv. /products/1 */}
                         <Route path=":id" element={<ProductDetail />} >
                             {/* Geneste Child route
                             bv. /products/1/reviews  */}
-                             <Route path="reviews" element={<ProductReviews />} />
+                             <Route path="reviews" element={<ProductReviews products={PRODUCT_DATA}/>} />
                         </Route>
                     </Route>
                 </Routes>
