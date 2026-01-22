@@ -1,26 +1,26 @@
 export const PRODUCT_DATA = [
     {
         id: 1,
-        name: "Laptop",
+        name: "iPhone 17",
         reviews: [
-            {productID: 1, author: "Alice", rating: 5, text: "Amazing product!"},
-            {productID: 1, author: "Bob", rating: 4, text: "Pretty good overall."}
+            {productID: 1, author: "Els", rating: 5, text: "Geweldig apparaat!"},
+            {productID: 1, author: "Mike", rating: 4, text: "Zeert tevreden over mijn toestel."}
         ]
     },
     {
         id: 2,
-        name: "Headphones",
+        name: "Samsung S25 Ultra",
         reviews: [
-            {productID: 2, author: "Donald", rating: 4, text: "I can recommend this product."},
-            {productID: 2, author: "Ronald", rating: 3, text: "Kan slechter."}
+            {productID: 2, author: "Eefje", rating: 4, text: "Ik kan dit toestel ten zeerste aanbevelen!."},
+            {productID: 2, author: "Koen", rating: 3, text: "Zeer geschikt om mooie foto's te maken"}
         ]
     },
     {
         id: 3,
-        name: "Keyboard",
+        name: "Samsung Galaxy A56",
         reviews: [
-            {productID: 3, author: "Rick", rating: 1, text: "Poor quality."},
-            {productID: 3, author: "Mike", rating: 2, text: "Not really what I expected."}
+            {productID: 3, author: "Sandy", rating: 2, text: "Ben niet overtuigd."},
+            {productID: 3, author: "Luk", rating: 1, text: "Heb spijt dat ik dit toestel gekocht heb."}
         ]
     }
 ]

@@ -6,7 +6,7 @@ function ProductReviews({products}) {
 
     return (
         <div style={{ marginTop: "1rem" }}>
-            <h2>Reviews for product {id}</h2>
+            <h2>Beoordelingen voor product {id}</h2>
 
             {reviews.length === 0 && <p>No reviews yet.</p>}
 
@@ -14,7 +14,6 @@ function ProductReviews({products}) {
                 <div key={index} style={{ marginBottom: "1rem" }}>
                     <strong>{review.author}</strong> — {review.rating}/5
                     <p>{review.text}</p>
-
                 </div>
             ))}
         </div>

@@ -6,9 +6,9 @@ export default function ProductDetail() {
     return (
         <div style={{ marginTop: "1rem" }}>
             <h2>Product Detail</h2>
-            <p>You are viewing product ID: {id}</p>
+            <p>Je bekijkt product met product ID: {id}</p>
 
-            <Link to="reviews">See reviews</Link>
+            <Link to="reviews">Beoordelingen</Link>
 
             <Outlet/>
         </div>
